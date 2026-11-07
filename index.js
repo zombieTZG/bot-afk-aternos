@@ -2,15 +2,14 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'MIDGARZOMBIE.aternos.me', 
-        port: 55862,                         
-        username: 'Bot_AFK_Aternos',        
+        host: 'ratfish.aternos.host',
+        port: 55862,
+        username: 'Bot_AFK_Aternos',
         version: '1.21.4',
     });
 
     bot.on('spawn', () => {
-        console.log('Il bot è entrato nel server!');
-        // Fa saltare il bot ogni 60 secondi per non farlo cacciare dal controllo AFK
+        console.log('Il bot e entrato nel server!');
         setInterval(() => {
             bot.setControlState('jump', true);
             setTimeout(() => bot.setControlState('jump', false), 500);
