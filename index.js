@@ -5,7 +5,7 @@ function createBot() {
         host: 'MIDGARZOMBIE.aternos.me', 
         port: 55862,                         
         username: 'Bot_AFK_Aternos',        
-        version: '1.21.4',
+        version: '26.3',
     });
 
     bot.on('spawn', () => {
