@@ -5,7 +5,7 @@ function createBot() {
         host: 'MIDGARZOMBIE.aternos.me', // Sostituisci con il tuo IP senza porta
         port: 55862,                           // Sostituisci con la tua porta a 5 cifre
         username: 'Bot_AFK_Aternos',           // Lascia pure questo nome per il bot
-        version: '26.3',
+        version: '1.21.1',
                 // Sostituisci con la versione esatta del tuo server
     });
 
